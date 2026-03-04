@@ -11,3 +11,4 @@ func _on_body_entered(body):
 
 func _on_collected_sfx_finished():
 	queue_free()
+	print("func _on_collected_sfx_finished()")
